@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c98a95266f0e4a9ebcb1b4a4a6ee3c0, type: 3}
+  m_Name: Ball Models
+  m_EditorClassIdentifier: 
+  materialResource: Materials/
+  BallGameObj: {fileID: 7371303128828500723, guid: 654cdaa560903418c8357b962d0da300, type: 3}
+  ballModels:
+  - splitLevel: 0
+    jumpForce: 12
+    sideForce: 2.5
+    size: 2.5
+  - splitLevel: 1
+    jumpForce: 10
+    sideForce: 2
+    size: 2
+  - splitLevel: 2
+    jumpForce: 9
+    sideForce: 2
+    size: 1.5
+  - splitLevel: 3
+    jumpForce: 8
+    sideForce: 1
+    size: 1
